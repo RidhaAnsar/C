@@ -1,0 +1,17 @@
+14. //  Patterns like 1  22 333 4444 55555 NNNNNN
+#include <stdio.h>
+ int main ()
+ {
+     int i, j ;
+     int N ;
+     
+     printf("Enter the Last Term of the Pattern \n");
+     scanf("%d", &N) ;
+     
+     for (i = 1 ; i <= N ; i++)
+       for ( j = 1 ; j <= i ; j++)
+            {
+                printf("%d", i);
+                 if ( j == i ) printf("\n");
+            }
+ }
